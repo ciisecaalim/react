@@ -1,5 +1,6 @@
 import { Phone } from 'lucide-react'
 import React, { useEffect, useState } from 'react'
+import Login from './login'
 
 function App() {
 
@@ -152,8 +153,10 @@ function App() {
 
 
 
-
+<Login />
     </div >
+
+    
   )
 }
 
